@@ -34,7 +34,7 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
         ca-certificates=20230311ubuntu0.22.04.1 \
-        curl=7.81.0-1ubuntu1.16 \
+        curl \
         jq=1.6-2.1ubuntu3 \
         tzdata=2024a-0ubuntu0.22.04 \
         xz-utils=5.2.5-2ubuntu1 \
